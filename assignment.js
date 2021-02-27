@@ -63,7 +63,7 @@ function megaFriend(arr) {
       longName = arr[i];
     }
   }
-  return console.log(longName);
+  return longName;
 }
 var friends = [
   "kashem",
@@ -74,3 +74,4 @@ var friends = [
   "Rakib",
 ];
 var megaFriendCaller = megaFriend(friends);
+console.log(megaFriendCaller);
